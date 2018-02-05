@@ -1,0 +1,2 @@
+[06-Oct-2016 05:04:09 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'and' (T_LOGICAL_AND) in /home/malinux/public_html/wp-content/themes/Microagility/affirm.php on line 1
+[13-Oct-2016 11:06:40 America/Los_Angeles] PHP Fatal error:  Call to undefined function get_header() in /home/malinux/public_html/wp-content/themes/Microagility/index.php on line 1

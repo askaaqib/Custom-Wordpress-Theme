@@ -1,0 +1,321 @@
+.single-newsletter .container{
+	width: 1170px !important;
+}
+.single-newsletter #container{
+	width: 1170px !important;
+}
+.logo img{
+	margin: 15px 0 10px 100px;
+}
+.banner-image{
+	background: url('../images/cover-bg.jpg');
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	z-index: -1;
+}
+.overlay {
+	height: 500px;
+	top: 0;
+	background-color: rgba(256,256,256,.5);
+	z-index: 1;
+}
+.message{
+	background-color: #334dbb;
+	color: #fff;
+	padding: 20px 15px;
+	position: relative;
+	min-height: 525px;
+}
+.heading{
+	background-color: #0d0058;
+	color: #fff;
+	padding: 5px 5px 5px 25px;
+	position: absolute;
+	left: -15px;
+}
+.heading:after{
+	content: "";
+	position: absolute;
+	border-top: 50px solid transparent;
+	border-right: 5px solid transparent;
+	border-left: 30px solid #0d0058;
+	top: -2px;
+    bottom: 0;
+    right: -35px;
+}
+
+.heading h4{
+	font-size: 17px;
+}
+.message-body{
+	padding-top: 55px;
+	line-height: 23px;
+
+}
+.title{
+	padding-left:25px;
+}
+.title h1{
+	margin-top: 0;
+	font-weight: 700;
+}
+.date{
+	
+	float:right;
+	background-color: #4ddbff;
+	padding: 2px 10px;
+}
+.right{
+	background-color: #dedede;
+	padding: 5px 25px;
+	position: relative;
+	clear: both;
+}
+.heading2{
+	display: block;
+	background-color: #0d0058;
+	padding: 5px 15px;
+	color: #fff;
+	margin-left: -25px;
+}
+.right .list{
+	padding: 15px 10px 15px 5px;
+    background-color: #ededed;
+    margin: 55px 0 10px -20px;
+}
+.list h5 {
+	border-bottom: solid 1px #ddd;
+	margin: 0;
+	padding: 13px 10px 13px 10px;
+}
+.list h5:nth-of-type(5){
+	border-bottom: none;
+}
+.interview{
+	background-color: #4ddbff;
+	color: #fff;
+	margin: 5px 0;
+	padding: 30px 15px;
+	position: relative;
+}
+.interview .series a{
+	color: #0d0058 !important;
+}
+.interview .heading{
+	top: 45px;
+	/*padding: 20px 30px;*/
+}
+.interview .heading:after{
+	left: 117px;
+}
+.members{
+	margin:0;
+	padding:0;
+}
+.members .heading:after{
+	left: ;
+}
+.series{
+	padding-left: 130px;
+	color: #0d0058;
+}
+.series a{
+	font-weight: bold;
+	color: #0d0058;
+}
+.iagility{
+	padding: 40px 20px;
+	background-color: #cff5ff;
+	margin-bottom: 10px;
+	
+}
+.iagility img{
+	float: left;
+	width: 150px;
+	margin-right: 50px;
+}
+.iagility h5{
+	color: #0d0058;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.articles{
+	background-color: #4ddbff;
+	padding: 10px 25px 10px 25px;
+	position: relative;
+	min-height: 380px;
+	margin: 0 0 10px 0;
+}
+.articles .news{
+	margin-top: 65px;
+}
+.list a{
+	color: #0d0058;
+	font-weight: bold;
+}
+.articles .news a{
+	color: #0d0058;
+	
+	font-weight: bold;
+}
+.contact{
+	background-image :url('../images/contact.png');
+
+}
+.overlay-contact {
+	padding: 30px 0 30px 0;
+	background-color: rgba(255, 255, 255, 0.6);
+	min-height: 180px;
+}
+.contact-left h5{
+	margin-top: 0;
+	color: #0d0058;
+	font-weight: bold;
+	font-size: 13px;
+}
+.contact-list ul{
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contact-list ul li{
+	display: block;
+	background-color: #cff5ff;
+	padding: 4px 10px;
+	min-height: 35px;
+	margin: 3px 0;
+}
+.contact-list ul li a{
+	color: #0d0058;
+	text-decoration: none;
+}
+.contact-list ul li i{
+	width: 22px;
+
+}
+.quote{
+	background-image: url('../images/footer-imgnew-3.jpg');
+	background-size: 100% 95%;
+	background-repeat: no-repeat;
+	margin: 5px 0;
+	height: 180px;
+}
+.left-bottom{
+	overflow: hidden;
+	clear: both;
+}
+.dark-blue{
+	color: #0d0058;
+}
+.light-blue{
+	color: #334dbb;
+}
+.red{
+	color: #e6222e;
+}
+.bold{
+	font-weight: bold;
+}
+.consulting_june_17 .articles{
+	min-height: 440px !important;
+}
+.hcit_june_17 .articles{
+	min-height: 412px !important;
+}
+.it_june_17 .right .list{
+	padding: 11px 10px 11px 5px !important;
+}
+.jp_morgan_june_17 .articles{
+	min-height: 457px !important;
+}
+.merrill_lynch_june_17 .articles{
+	min-height: 459px !important;
+}
+.pm_june_17 .articles{
+	height: 427px !important;
+}
+.consulting_july_17 .list h5{
+	padding: 12.6px 10px 12.6px 10px;
+}
+.cxo_july_17 .list h5{
+	padding: 9px 10px 9px 10px;
+}
+.cxo_july_17 .message-body {
+    padding-bottom: 24px;
+}
+.hcit_july_17 .list h5{
+	padding: 9px 10px 9px 10px;
+}
+.hcit_july_17 .articles{
+	min-height: 440px !important;
+}
+.it_july_17 .list h5{
+	padding: 8.7px 10px 8.7px 10px;
+}
+.merrill_lynch_july_17 .list h5{
+	padding: 10px 10px 10px 10px;
+}
+.merrill_lynch_july_17 .message-body {
+    padding-bottom: 24px;
+}
+.merrill_lynch_july_17 .articles{
+	height: 395px !important;
+}
+.jp_morgan_july_17 .list h5{
+	padding: 12.5px 10px 12.5px 10px;
+}
+.pm_july_17 .list h5{
+	padding: 11.8px 10px 11.8px 10px;
+}
+.pm_july_17 .articles{
+	height: 420px !important;
+}
+.pm_july_17 .message-body {
+    padding-bottom: 24px;
+}
+.heading2 a{
+	color: #337ab7 !important;
+}
+.heading2 a:hover, a:focus {
+    color: #23527c !important;
+}
+.single-newsletter .message{
+	min-height: 680px !important;
+}
+.single-newsletter .interview .heading {
+    top: 70px !important;
+}
+.single-newsletter .interview {
+    padding: 50px 15px !important;    
+    min-height: 200px !important;
+}
+.single-newsletter .iagility {
+    padding: 62px 20px !important;
+}
+.single-newsletter .overlay-contact {
+    padding: 55px 0 55px 0 !important;
+    min-height: 220px !important;
+}
+.single-newsletter .right .featured-list {
+    min-height: 255px !important;
+}
+.single-newsletter .right .jobs-list {
+    min-height: 300px !important;
+}
+.single-newsletter .articles {
+    min-height: 490px !important;
+}
+
+@media screen and (min-width: 992px) { 
+	.ads-section{
+		
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) { 
+	.articles{
+		border-bottom: 5px;
+	}
+}
